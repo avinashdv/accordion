@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>Accordion- 1</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		
+		<style>
+			html,body{
+				font-family:"Acme", serif;
+			}
+			.flex-container {
+			  display: flex;
+			  justify-content: center;
+			  height: auto;
+			  background-color: white;
+			}
+			.bg-grey{
+				background-color: #F7F7F7;
+			}
+			.shadow{
+				box-shadow: 2px 3px;
+				background-color: #33CCCC;
+			}
+			#head-one, #content-one{
+				border:2px solid #DFDFDF;
+				padding:2px 30px;
+			}
+			#head-one > h2 > a {
+				text-decoration: none;
+				color: black;
+			}
+			#head-one > h2 > a:hover{
+				text-decoration: underline;
+				color: black;
+			}
+			#content-one{
+				border-top:0;
+				display:block;
+			}
+			#head-two, #content-two, #head-three, #content-three{
+				border-top: 0;
+				border-right:2px;
+				border-bottom:2px;
+				border-left:2px;
+				border-color: #DFDFDF;
+				border-style: solid;
+				padding:2px 30px;
+				
+			}
+			#head-two > h2 > a {
+				text-decoration: none;
+				color: black;
+			}
+			#head-two > h2 > a:hover{
+				text-decoration: underline;
+				color: black;
+			}
+
+			#head-three > h2 > a {
+				text-decoration: none;
+				color: black;
+			}
+			#head-three > h2 > a:hover{
+				text-decoration: underline;
+				color: black;
+			}
+
+			#content-two, #content-three{
+				border-top:0;
+				display:none;
+			}
+			.text-line{
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div>
+				<div id="head-one">
+					<h2><a href="#">Acc-1</a></h2>
+				</div>
+				<div id="content-one">
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+				</div>
+
+				<div id="head-two">
+					<h2><a href="#">Acc-2</a></h2>
+				</div>
+				<div id="content-two">
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+				</div>
+
+				<div id="head-three">
+					<h2><a href="#">Acc-3</a></h2>
+				</div>
+				<div id="content-three">
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="jquery.js"></script>
+	</body>
+</html>
